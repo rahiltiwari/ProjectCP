@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:ProjectCP"
              x:Class="ProjectCP.MainPage">
 
-  <Label Text="Welcome to Xamarin Forms!"
+  <Label Text="Welcome to Ride Sharing!"
            VerticalOptions="Center"
            HorizontalOptions="Center" />
 
