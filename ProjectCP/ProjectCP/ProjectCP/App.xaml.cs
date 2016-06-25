@@ -13,7 +13,10 @@ namespace ProjectCP
         {
             InitializeComponent();
 
-            MainPage = new ProjectCP.MainPage();
+            if (true) //Check if user is logged in.
+                MainPage = new ProjectCP.Login();
+            else
+                MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

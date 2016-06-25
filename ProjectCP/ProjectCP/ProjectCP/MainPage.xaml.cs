@@ -12,6 +12,7 @@ namespace ProjectCP
         public MainPage()
         {
             InitializeComponent();
+
         }
     }
 }
