@@ -2,11 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjectCP.Login">
-  <StackLayout>
+  <StackLayout Padding="20" Spacing="10">
     <Label Text="Welcome to Ride Sharing" VerticalOptions="Center" HorizontalOptions="Center" />
     <Label Text="Login" VerticalOptions="Center" HorizontalOptions="Center" />
-    <Entry Text="username"/>
-    <Entry Text="password"/>
+    <Entry x:Name="txtUserName" Placeholder="UserName"/>
+    <Entry x:Name="txtPassword" Placeholder="Password"/>
     <Button Text="Login" x:Name ="btnLogin" Clicked="LoginBtn_Clicked"/>
     <Button Text="Register" x:Name ="btnRegister" Clicked="RegisterBtn_Clicked"/>
   </StackLayout>

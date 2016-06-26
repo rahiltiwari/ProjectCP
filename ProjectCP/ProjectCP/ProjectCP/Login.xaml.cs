@@ -20,7 +20,7 @@ namespace ProjectCP
         }
         public async void LoginBtn_Clicked(object sender, EventArgs e)
         {            
-            new NavigationPage(new MainPage());
+            //new NavigationPage(new MainPage());
             await Navigation.PushAsync(new MainPage(), false);
         }
     }

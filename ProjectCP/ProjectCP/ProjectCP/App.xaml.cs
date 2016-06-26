@@ -14,7 +14,8 @@ namespace ProjectCP
             InitializeComponent();
 
             if (true) //Check if user is logged in.
-                MainPage = new ProjectCP.Login();
+               // MainPage = new ProjectCP.Login();
+            MainPage = new NavigationPage(new Login()); 
             else
                 MainPage = new NavigationPage(new MainPage());
         }

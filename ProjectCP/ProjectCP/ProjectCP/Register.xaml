@@ -4,5 +4,10 @@
              x:Class="ProjectCP.Register">
   <StackLayout>
     <Label Text="Register Here" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Entry x:Name="RegisterUserName" Placeholder="UserName"/>
+    <Entry x:Name="RegisterPassword" Placeholder="Password"/>
+    <Entry x:Name="RegisterEmailId" Placeholder="EmailId"/>
+    <Entry x:Name="RegisterMobileNo" Placeholder="Mobile No."/>
+    <Button x:Name="BtnRegister" Text="Register" Clicked="BtnRegister1_Clicked"/>
   </StackLayout>
 </ContentPage>
