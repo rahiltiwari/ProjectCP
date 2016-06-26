@@ -5,5 +5,9 @@
   <StackLayout>
     <Label Text="Welcome to Ride Sharing" VerticalOptions="Center" HorizontalOptions="Center" />
     <Label Text="Login" VerticalOptions="Center" HorizontalOptions="Center" />
+    <Entry Text="username"/>
+    <Entry Text="password"/>
+    <Button Text="Login" x:Name ="btnLogin" Clicked="loginBtnClicked"/>
+    <Button Text="Register" x:Name ="btnRegister" Clicked="registerBtnClicked"/>
   </StackLayout>
 </ContentPage>
