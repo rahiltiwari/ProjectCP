@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ProjectCP"
-             x:Class="ProjectCP.MainPage">
+             x:Class="ProjectCP.MainPage"
+             NavigationPage.HasBackButton="False">
 
   <Label Text="Welcome to Ride Sharing!"
            VerticalOptions="Center"

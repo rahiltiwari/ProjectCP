@@ -14,9 +14,14 @@ namespace ProjectCP
         {
             InitializeComponent();
         }
-        public async void registerBtnClicked(object sender, EventArgs e)
+        public async void RegisterBtn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Register(), false);
+        }
+        public async void LoginBtn_Clicked(object sender, EventArgs e)
+        {            
+            new NavigationPage(new MainPage());
+            await Navigation.PushAsync(new MainPage(), false);
         }
     }
 }
